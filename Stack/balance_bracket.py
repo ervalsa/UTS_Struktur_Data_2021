@@ -24,7 +24,9 @@ def BracketBalanced(expr):
 
 
 if __name__ == "__main__":
-    expr = "{()}[]"
+    expr = "[]"
+
+    print(expr)
 
     if BracketBalanced(expr):
         print("Balanced")
